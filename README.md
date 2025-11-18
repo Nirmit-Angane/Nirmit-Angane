@@ -107,8 +107,24 @@ const nirmit = {
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nirmit-Angane&theme=radical" width="100%" />
 </div>
 
+<style>
+  .card {
+    border-radius: 0 !important;
+    border: none !important;
+  }
+  img {
+    border-radius: 0 !important;
+    border: none !important;
+  }
+  #t1, #t1 td, #t1 tr {
+    border: none !important;
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+  }
+</style>
+
 <div align="center">
-  <table>
+  <table id="t1">
     <tr>
       <td>
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Nirmit-Angane&theme=radical" />
