@@ -104,33 +104,17 @@ const nirmit = {
 ## 📈 Contribution Stats
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nirmit-Angane&theme=radical" width="100%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nirmit-Angane&theme=2077" width="100%" />
 </div>
 
-<style>
-  .card {
-    border-radius: 0 !important;
-    border: none !important;
-  }
-  img {
-    border-radius: 0 !important;
-    border: none !important;
-  }
-  #t1, #t1 td, #t1 tr {
-    border: none !important;
-    border-spacing: 0 !important;
-    border-collapse: collapse !important;
-  }
-</style>
-
 <div align="center">
-  <table id="t1">
+  <table>
     <tr>
       <td>
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Nirmit-Angane&theme=radical" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Nirmit-Angane&theme=2077" />
       </td>
       <td>
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nirmit-Angane&theme=radical" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nirmit-Angane&theme=2077" />
       </td>
     </tr>
   </table>
