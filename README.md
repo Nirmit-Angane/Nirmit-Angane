@@ -164,12 +164,6 @@ const nirmit = {
 
 </div>
 
-## 📊 Weekly Development Breakdown
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
-
 ### ✨ Fun Fact
 
 ```python
@@ -178,8 +172,8 @@ class Developer:
         self.name = "Nirmit Angane"
         self.role = "Aspiring Software Developer"
         self.language_spoken = ["hi_IN", "en_US"]
-        self.code = ["Python", "Java", "JavaScript", "C", "C++"]
-        self.tools = ["React", "Node.js", "Git", "VS Code"]
+        self.code = ["Python", "Java", "JavaScript", "C"]
+        self.tools = ["Next.js", "JQuery", "Git", "VS Code"]
     
     def say_hi(self):
         print("Thanks for dropping by! Let's connect and build something amazing together!")
