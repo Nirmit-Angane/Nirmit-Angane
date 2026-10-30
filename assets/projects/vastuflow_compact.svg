@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="220" viewBox="0 0 420 220" fill="none">
+  <defs>
+    <linearGradient id="bg_vastuflow" x1="0" y1="0" x2="420" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A" />
+      <stop offset="1" stop-color="#0B0F19" />
+    </linearGradient>
+    <clipPath id="clip_vastuflow">
+      <rect width="420" height="220" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <g clip-path="url(#clip_vastuflow)">
+    <rect width="420" height="220" fill="url(#bg_vastuflow)" />
+    <rect x="0.5" y="0.5" width="419" height="219" stroke="#1E293B" fill="none" />
+    <line x1="0" y1="0.5" x2="420" y2="0.5" stroke="#334155" stroke-width="1" />
+
+    <!-- Icon Box -->
+    <g transform="translate(24, 18)">
+      <rect width="36" height="36" rx="6" fill="#1E293B" stroke="#10B981" stroke-opacity="0.4" stroke-width="1.5" />
+      <text x="18" y="25" text-anchor="middle" font-size="18">🏛️</text>
+    </g>
+
+    <!-- Project Title -->
+    <text x="70" y="34" class="font-sans" font-size="16" font-weight="800" fill="#F8FAFC" letter-spacing="0.5">
+      VASTUFLOW
+    </text>
+
+    <!-- Tech Stack line -->
+    <text x="70" y="50" class="font-mono" font-size="10.5" font-weight="600" fill="#34D399">
+      Next.js • TypeScript • Canvas • Groq AI
+    </text>
+
+    <!-- Description -->
+    <g transform="translate(24, 76)">
+      <text class="font-sans" font-size="12.5" fill="#94A3B8" font-weight="400">
+        <tspan x="0" y="0">Deterministic floor-plan architectural analysis </tspan>
+        <tspan x="0" y="18">engine with 16-zone Shakti Chakra ray-casting, 32 </tspan>
+        <tspan x="0" y="36">entrance devta mapping, and AI spatial remedies...</tspan>
+      </text>
+    </g>
+
+    <!-- Tags -->
+    
+        <g transform="translate(24, 148)">
+          <rect width="113.5" height="22" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1" />
+          <text x="56.75" y="15" text-anchor="middle" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" fill="#94A3B8" letter-spacing="0.4">ARCHITECTURE AI</text>
+        </g>
+        <g transform="translate(145.5, 148)">
+          <rect width="146.0" height="22" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1" />
+          <text x="73.0" y="15" text-anchor="middle" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" fill="#94A3B8" letter-spacing="0.4">GEOMETRIC ALGORITHMS</text>
+        </g>
+
+    <!-- Action Link -->
+    <g transform="translate(24, 196)">
+      <text class="font-sans" font-size="11.5" font-weight="700" fill="#34D399" letter-spacing="0.8">
+        VIEW REPOSITORY &#10142;
+      </text>
+    </g>
+  </g>
+</svg>

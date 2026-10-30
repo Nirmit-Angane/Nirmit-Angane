@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="896" height="148" viewBox="0 0 896 148" fill="none">
+  <defs>
+    <linearGradient id="card_grad_dark" x1="0" y1="0" x2="896" y2="148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0F19" />
+      <stop offset="1" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="border_grad_dark" x1="0" y1="0" x2="896" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6" stop-opacity="0.8" />
+      <stop offset="0.5" stop-color="#38BDF8" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#F43F5E" stop-opacity="0.8" />
+    </linearGradient>
+    <clipPath id="card_clip_dark">
+      <rect width="896" height="148" rx="20" />
+    </clipPath>
+  </defs>
+
+  <style>
+    * {
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    .animate-ping {
+      animation: ping 1.6s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+    @keyframes ping {
+      75%, 100% {
+        transform: scale(2.4);
+        opacity: 0;
+      }
+    }
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+    .font-mono {
+      font-family: 'Fira Code', 'Courier New', monospace;
+    }
+  </style>
+
+  <g clip-path="url(#card_clip_dark)">
+    <!-- Base Card Background -->
+    <rect width="896" height="148" rx="20" fill="url(#card_grad_dark)" />
+    
+    <!-- Top accent border glow line -->
+    <rect x="0" y="0" width="896" height="2" fill="url(#border_grad_dark)" />
+    <!-- Outer Card Border -->
+    <rect x="0.5" y="0.5" width="895" height="147" rx="19.5" stroke="#1E293B" stroke-opacity="0.9" fill="none" />
+
+    <!-- Header line -->
+    <g transform="translate(32, 28)">
+      <circle cx="6" cy="6" r="4" fill="#8B5CF6" class="animate-ping" opacity="0.6" />
+      <circle cx="6" cy="6" r="3.5" fill="#A78BFA" />
+      <text x="18" y="10" class="font-sans" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#A78BFA">✨ FUN FACT</text>
+      <text x="832" y="10" text-anchor="end" class="font-mono" font-size="11" fill="#64748B">// status: authentic</text>
+    </g>
+
+    <!-- 3 Bento Pills -->
+    <!-- Pill 1: AI Enthusiast -->
+    <g transform="translate(32, 54)">
+      <rect width="258" height="66" rx="14" fill="#8B5CF6" fill-opacity="0.08" stroke="#8B5CF6" stroke-opacity="0.3" stroke-width="1" />
+      <circle cx="34" cy="33" r="18" fill="#8B5CF6" fill-opacity="0.15" />
+      <text x="34" y="39" text-anchor="middle" font-size="18">🤖</text>
+      <text x="64" y="29" class="font-sans" font-size="14.5" font-weight="700" fill="#DDD6FE">AI Enthusiast</text>
+      <text x="64" y="47" class="font-sans" font-size="12" fill="#94A3B8">by passion</text>
+    </g>
+
+    <!-- Pill 2: Developer -->
+    <g transform="translate(319, 54)">
+      <rect width="258" height="66" rx="14" fill="#38BDF8" fill-opacity="0.08" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1" />
+      <circle cx="34" cy="33" r="18" fill="#38BDF8" fill-opacity="0.15" />
+      <text x="34" y="39" text-anchor="middle" font-size="18">💻</text>
+      <text x="64" y="29" class="font-sans" font-size="14.5" font-weight="700" fill="#BAE6FD">Developer</text>
+      <text x="64" y="47" class="font-sans" font-size="12" fill="#94A3B8">by profession</text>
+    </g>
+
+    <!-- Pill 3: Bug Creator -->
+    <g transform="translate(606, 54)">
+      <rect width="258" height="66" rx="14" fill="#F43F5E" fill-opacity="0.08" stroke="#F43F5E" stroke-opacity="0.3" stroke-width="1" />
+      <circle cx="34" cy="33" r="18" fill="#F43F5E" fill-opacity="0.15" />
+      <text x="34" y="39" text-anchor="middle" font-size="18">🐛</text>
+      <text x="64" y="29" class="font-sans" font-size="14.5" font-weight="700" fill="#FECDD3">Bug Creator</text>
+      <text x="64" y="47" class="font-sans" font-size="12" fill="#94A3B8">by accident &#128514;</text>
+    </g>
+  </g>
+</svg>
+

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="896" height="136" viewBox="0 0 896 136" fill="none">
+  <defs>
+    <linearGradient id="contact_bg_light" x1="448" y1="0" x2="448" y2="136" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" />
+      <stop offset="1" stop-color="#F8FAFC" />
+    </linearGradient>
+    <linearGradient id="contact_border_glow_light" x1="0" y1="0" x2="896" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED" stop-opacity="0.8" />
+      <stop offset="0.5" stop-color="#0284C7" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#059669" stop-opacity="0.8" />
+    </linearGradient>
+    <clipPath id="contact_clip_light">
+      <rect width="896" height="136" rx="16" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .animate-ping {
+      transform-origin: 48px 24px;
+      animation: ping 1.8s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+    @keyframes ping {
+      75%, 100% {
+        transform: scale(2.4);
+        opacity: 0;
+      }
+    }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <g clip-path="url(#contact_clip_light)">
+    <rect width="896" height="136" rx="16" fill="url(#contact_bg_light)" />
+    <rect x="0" y="0" width="896" height="2" fill="url(#contact_border_glow_light)" />
+    <rect x="0.5" y="0.5" width="895" height="135" rx="15.5" stroke="#E2E8F0" fill="none" />
+
+    <!-- Header bar -->
+    <g transform="translate(0, 0)">
+      <circle cx="48" cy="24" r="4.5" fill="#059669" class="animate-ping" opacity="0.6" />
+      <circle cx="48" cy="24" r="3.5" fill="#059669" />
+      <text x="60" y="28" class="font-sans" font-size="11.5" font-weight="700" letter-spacing="1.2" fill="#059669">
+        AVAILABLE FOR HIRE &#38; COLLABORATION
+      </text>
+      <text x="864" y="28" text-anchor="end" class="font-mono" font-size="11" fill="#64748B">
+        // status: active &#8226; response &lt; 24h
+      </text>
+    </g>
+
+    <!-- 3 Action Pills -->
+    <!-- Pill 1: LinkedIn -->
+    <a href="https://www.linkedin.com/in/nirmit-angane-445201360/" target="_blank">
+      <g transform="translate(32, 48)">
+        <rect width="258" height="66" rx="12" fill="#0A66C2" fill-opacity="0.06" stroke="#0A66C2" stroke-opacity="0.25" stroke-width="1" />
+        <circle cx="34" cy="33" r="16" fill="#0A66C2" fill-opacity="0.12" />
+        <text x="34" y="38" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="16" fill="#0A66C2">in</text>
+        <text x="62" y="28" class="font-sans" font-size="13.5" font-weight="700" fill="#0F172A">LinkedIn</text>
+        <text x="62" y="47" class="font-mono" font-size="11" fill="#0284C7">@nirmit-angane &#10142;</text>
+      </g>
+    </a>
+
+    <!-- Pill 2: GitHub -->
+    <a href="https://github.com/Nirmit-Angane" target="_blank">
+      <g transform="translate(319, 48)">
+        <rect width="258" height="66" rx="12" fill="#7C3AED" fill-opacity="0.06" stroke="#7C3AED" stroke-opacity="0.25" stroke-width="1" />
+        <circle cx="34" cy="33" r="16" fill="#7C3AED" fill-opacity="0.12" />
+        <text x="34" y="39" text-anchor="middle" font-size="18">&#128187;</text>
+        <text x="62" y="28" class="font-sans" font-size="13.5" font-weight="700" fill="#0F172A">GitHub</text>
+        <text x="62" y="47" class="font-mono" font-size="11" fill="#7C3AED">@Nirmit-Angane &#10142;</text>
+      </g>
+    </a>
+
+    <!-- Pill 3: Direct Email -->
+    <a href="mailto:nirmitangane@gmail.com" target="_blank">
+      <g transform="translate(606, 48)">
+        <rect width="258" height="66" rx="12" fill="#DC2626" fill-opacity="0.06" stroke="#DC2626" stroke-opacity="0.25" stroke-width="1" />
+        <circle cx="34" cy="33" r="16" fill="#DC2626" fill-opacity="0.12" />
+        <text x="34" y="39" text-anchor="middle" font-size="18">&#9993;</text>
+        <text x="62" y="28" class="font-sans" font-size="13.5" font-weight="700" fill="#0F172A">Direct Email</text>
+        <text x="62" y="47" class="font-mono" font-size="11" fill="#DC2626">nirmitangane@... &#10142;</text>
+      </g>
+    </a>
+  </g>
+</svg>

@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="896" height="172" viewBox="0 0 896 172" fill="none">
+  <defs>
+    <linearGradient id="bg_grad_quote_dark" x1="448" y1="0" x2="448" y2="172" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0F19" />
+      <stop offset="1" stop-color="#0F172A" />
+    </linearGradient>
+    <radialGradient id="glow_grad_quote_dark" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(448 86) rotate(90) scale(150 450)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.12" />
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="card_clip_quote_dark">
+      <rect width="896" height="172" rx="20" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .animate-ping {
+      transform-origin: 48px 35px;
+      animation: ping 1.8s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+    @keyframes ping {
+      75%, 100% {
+        transform: scale(2.4);
+        opacity: 0;
+      }
+    }
+
+    /* Rock-solid Opacity Cross-fade */
+    .quote-item {
+      opacity: 0;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+      animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .quote-1 { animation-name: cycle1; }
+    .quote-2 { animation-name: cycle2; }
+    .quote-3 { animation-name: cycle3; }
+    .quote-4 { animation-name: cycle4; }
+
+    @keyframes cycle1 {
+      0% { opacity: 0; }
+      3%, 22% { opacity: 1; }
+      25%, 100% { opacity: 0; }
+    }
+    @keyframes cycle2 {
+      0%, 25% { opacity: 0; }
+      28%, 47% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes cycle3 {
+      0%, 50% { opacity: 0; }
+      53%, 72% { opacity: 1; }
+      75%, 100% { opacity: 0; }
+    }
+    @keyframes cycle4 {
+      0%, 75% { opacity: 0; }
+      78%, 97% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    .progress-bar {
+      transform-origin: 0px 170px;
+      animation: progress 5s linear infinite;
+    }
+    @keyframes progress {
+      0% { transform: scaleX(0); }
+      100% { transform: scaleX(1); }
+    }
+
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+    .font-mono {
+      font-family: 'Fira Code', 'Courier New', monospace;
+    }
+  </style>
+
+  <g clip-path="url(#card_clip_quote_dark)">
+    <!-- Base card background -->
+    <rect width="896" height="172" rx="20" fill="url(#bg_grad_quote_dark)" />
+    <rect width="896" height="172" fill="url(#glow_grad_quote_dark)" />
+
+    <!-- Blueprint Grid Lines -->
+    <g opacity="0.04" stroke="#FFFFFF" stroke-dasharray="4 4">
+      <path d="M32 0V172M64 0V172M96 0V172M128 0V172M160 0V172M192 0V172M224 0V172M256 0V172M288 0V172M320 0V172M352 0V172M384 0V172M416 0V172M448 0V172M480 0V172M512 0V172M544 0V172M576 0V172M608 0V172M640 0V172M672 0V172M704 0V172M736 0V172M768 0V172M800 0V172M832 0V172M864 0V172M0 32H896M0 64H896M0 96H896M0 128H896M0 160H896" />
+    </g>
+
+    <!-- Outer Card Border -->
+    <rect x="0.5" y="0.5" width="895" height="171" rx="19.5" stroke="#334155" stroke-opacity="0.6" fill="none" />
+
+    <!-- Top Card Header -->
+    <g>
+      <!-- Pill Badge -->
+      <rect x="32" y="22" width="186" height="26" rx="13" fill="#1E293B" fill-opacity="0.85" stroke="#8B5CF6" stroke-opacity="0.4" stroke-width="1" />
+      <circle cx="48" cy="35" r="4.5" fill="#8B5CF6" class="animate-ping" opacity="0.6" />
+      <circle cx="48" cy="35" r="3.5" fill="#A78BFA" />
+      <text x="60" y="39" class="font-sans" font-size="11" font-weight="700" letter-spacing="1.2" fill="#E2E8F0">&#128173; RANDOM DEV QUOTE</text>
+
+      <!-- Status indicator right -->
+      <text x="864" y="39" text-anchor="end" class="font-mono" font-size="11" fill="#64748B">&#8635; live rotation &#8226; 4 quotes</text>
+    </g>
+
+    <!-- Decorative Giant Watermark Quotes -->
+    <text x="44" y="125" font-family="Georgia, serif" font-size="86" font-weight="900" fill="#334155" fill-opacity="0.18">&#8220;</text>
+    <text x="852" y="145" text-anchor="end" font-family="Georgia, serif" font-size="86" font-weight="900" fill="#334155" fill-opacity="0.18">&#8221;</text>
+
+    <!-- QUOTE 1 -->
+    <g class="quote-item quote-1">
+      <text x="448" y="96" text-anchor="middle" class="font-sans" font-size="16.5" font-weight="600" fill="#F8FAFC" letter-spacing="0.2">
+        &#8220;Debugging is like being the detective in a crime movie where you are also the murderer.&#8221;
+      </text>
+      <text x="448" y="128" text-anchor="middle" class="font-sans" font-size="13" fill="#94A3B8">
+        <tspan fill="#F43F5E" font-weight="700">&#8212; Filipe Fortes</tspan>
+        <tspan fill="#475569"> &#8226; </tspan>
+        <tspan fill="#38BDF8">&#128027; Debugging</tspan>
+      </text>
+    </g>
+
+    <!-- QUOTE 2 -->
+    <g class="quote-item quote-2">
+      <text x="448" y="96" text-anchor="middle" class="font-sans" font-size="16.5" font-weight="600" fill="#F8FAFC" letter-spacing="0.2">
+        &#8220;First, solve the problem. Then, write the code.&#8221;
+      </text>
+      <text x="448" y="128" text-anchor="middle" class="font-sans" font-size="13" fill="#94A3B8">
+        <tspan fill="#A78BFA" font-weight="700">&#8212; John Johnson</tspan>
+        <tspan fill="#475569"> &#8226; </tspan>
+        <tspan fill="#34D399">&#128161; Problem Solving</tspan>
+      </text>
+    </g>
+
+    <!-- QUOTE 3 -->
+    <g class="quote-item quote-3">
+      <text x="448" y="96" text-anchor="middle" class="font-sans" font-size="16.5" font-weight="600" fill="#F8FAFC" letter-spacing="0.2">
+        &#8220;There are only 10 types of people: those who understand binary, and those who don&#8217;t.&#8221;
+      </text>
+      <text x="448" y="128" text-anchor="middle" class="font-sans" font-size="13" fill="#94A3B8">
+        <tspan fill="#FBBF24" font-weight="700">&#8212; Anonymous</tspan>
+        <tspan fill="#475569"> &#8226; </tspan>
+        <tspan fill="#818CF8">&#9889; Computer Science</tspan>
+      </text>
+    </g>
+
+    <!-- QUOTE 4 -->
+    <g class="quote-item quote-4">
+      <text x="448" y="96" text-anchor="middle" class="font-sans" font-size="16.5" font-weight="600" fill="#F8FAFC" letter-spacing="0.2">
+        &#8220;Simplicity is prerequisite for reliability.&#8221;
+      </text>
+      <text x="448" y="128" text-anchor="middle" class="font-sans" font-size="13" fill="#94A3B8">
+        <tspan fill="#38BDF8" font-weight="700">&#8212; Edsger W. Dijkstra</tspan>
+        <tspan fill="#475569"> &#8226; </tspan>
+        <tspan fill="#C084FC">&#128640; Architecture</tspan>
+      </text>
+    </g>
+
+    <!-- Bottom Progress Tracker -->
+    <rect x="0" y="169" width="896" height="3" fill="#1E293B" />
+    <rect x="0" y="169" width="896" height="3" fill="#8B5CF6" class="progress-bar" />
+  </g>
+</svg>
