@@ -1,77 +1,49 @@
+<a href="mailto:nirmitangane@gmail.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./header-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./header.svg">
+    <img alt="Nirmit Angane | Aspiring Software Developer · AI & ML Enthusiast · Python Developer" src="./header-dark.svg" width="100%">
+  </picture>
+</a>
+
+<header>
+  <div align="center">
+    <a href="https://www.linkedin.com/in/nirmit-angane-445201360/">
+      <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Nirmit_Angane-7733ff?style=flat&logo=linkedin&logoColor=ffffff&labelColor=334155">
+    </a>
+    <a href="https://github.com/Nirmit-Angane">
+      <img alt="GitHub" src="https://img.shields.io/badge/GitHub-Nirmit--Angane-7733ff?style=flat&logo=github&logoColor=ffffff&labelColor=334155">
+    </a>
+    <a href="mailto:nirmitangane@gmail.com">
+      <img alt="Email" src="https://img.shields.io/badge/Email-nirmitangane@gmail.com-7733ff?style=flat&logo=gmail&logoColor=ffffff&labelColor=334155">
+    </a>
+  </div>
+</header>
+
 <div align="center">
-
-<!-- Animated Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,23,27&height=200&section=header&text=Hi,%20I'm%20Nirmit%20👋&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=fff&desc" width="100%">
-
+  <br />
+  <img src="https://komarev.com/ghpvc/?username=Nirmit-Angane&label=Profile%20Views&color=7733ff&style=flat" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/Nirmit-Angane?label=Followers&style=flat&color=7733ff&labelColor=334155" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/Nirmit-Angane?label=Total%20Stars&style=flat&color=7733ff&labelColor=334155" alt="Stars" />
 </div>
 
-<div align="center">
-  
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&random=false&width=800&height=60&lines=Aspiring+Software+Developer+%F0%9F%9A%80;3%2B+Years+of+Coding+Experience+%F0%9F%92%BB;Building+Tomorrow's+Solutions+Today+%E2%9C%A8;AI+Enthusiast+%F0%9F%A4%96)](https://git.io/typing-svg)
-
-<img src="https://komarev.com/ghpvc/?username=Nirmit-Angane&label=Profile%20Views&color=ff69b4&style=for-the-badge" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/Nirmit-Angane?label=Followers&style=for-the-badge&color=ff69b4" alt="Followers" />
-<img src="https://img.shields.io/github/stars/Nirmit-Angane?label=Total%20Stars&style=for-the-badge&color=ff69b4" alt="Stars" />
-
-</div>
-
+<br />
 
 ## 🙋‍♂️ About Me
 
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+<div align="center">
+  <img src="./terminal.svg" alt="Nirmit Angane Machine Learning Terminal" width="100%" />
+</div>
 
-```javascript
-const nirmit = {
-    name: "Nirmit Angane",
-    role: "3rd Year Student 🎓",
-    education: "Currently pursuing Diploma in AI & ML",
-    experience: "3+ years of coding 💻",
-    passions: ["Python Developer 🌐", "Problem Solving 🧩", "AI/ML 🤖"],
-    currentFocus: ["DSA 📊", "AI / ML Development 🔨", "Open Source 🌟"],
-    lifePhilosophy: "Code. Learn. Repeat. ♻️"
-};
-```
+<br />
 
-- 🔭 I'm a **3rd year student** pursuing **Diplome in AI & ML**
-- 🌱 Currently learning **Python, Java, Web Development, and DSA**
-- 💡 Passionate learner who's always willing to learn and work across technologies
-- 🎯 I love to explore new technologies and leverage them to solve real-life problems
-- 💼 Currently into **Python Development** and working on my **Data Structures and Algorithms** skills
-- 📫 Reach me: **nirmitangane@gmail.com**
-- ⚡ Fun fact: **In Python, whitespace matters more than your feelings.** 😄
-
-
-## 🛠️ Technology Stack <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="32px">
+## 🛠️ Technology Stack & Workflow Architecture
 
 <div align="center">
-
-### 💻 Languages
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-</p>
-
-### 🚀 Frameworks & Libraries
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Python%20PyGame-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Pygame" />
-  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" />
-</p>
-
-### 🛠️ Tools & Technologies
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-</p>
-
+  <img src="./tech_stack.svg" alt="Nirmit Angane Technology Stack & Workflow Architecture" width="100%" />
 </div>
+
+<br />
 
 ## 📊 My GitHub Stats <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35">
 

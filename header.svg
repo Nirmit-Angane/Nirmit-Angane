@@ -1,0 +1,179 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="896"
+  height="288"
+  viewBox="0 0 896 288"
+  fill="none"
+>
+  <style>
+    * {
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    .animate-ping {
+      animation: ping 1.2s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    .animate-fade-in {
+      animation: fade-in 0.64s cubic-bezier(0, 0, 0.2, 1) forwards;
+    }
+
+    .animate-fade-in-bottom {
+      animation: fade-in-bottom 0.64s cubic-bezier(0, 0, 0.2, 1) forwards;
+    }
+
+    .animate-fade-in-right {
+      animation: fade-in-right 0.64s cubic-bezier(0, 0, 0.2, 1) forwards;
+    }
+
+    .title {
+      opacity: 0;
+      animation-delay: 0.4s;
+    }
+
+    .description {
+      opacity: 0;
+      animation-delay: 0.7s;
+    }
+
+    .additional {
+      opacity: 0;
+      animation-delay: 1s;
+    }
+
+    .additional__indicator {
+      opacity: 0;
+      animation-delay: 1.6s;
+    }
+
+    @keyframes ping {
+      75%,
+      100% {
+        transform: scale(2.4);
+        opacity: 0;
+      }
+    }
+
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fade-in-bottom {
+      from {
+        opacity: 0;
+        transform: translate3d(0, -20px, 0);
+      }
+      to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    @keyframes fade-in-right {
+      from {
+        opacity: 0;
+        transform: translate3d(-20px, 0, 0);
+      }
+      to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    .font-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 46px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+
+    .font-desc {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.2px;
+    }
+
+    .font-badge {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+    }
+  </style>
+
+  <g clip-path="url(#clip_card)">
+    <!-- Background Card -->
+    <rect width="896" height="288" fill="url(#bg_gradient)" />
+
+    <!-- Grid lines with mask -->
+    <mask id="grid_mask" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="896" height="288">
+      <rect width="896" height="288" fill="url(#mask_gradient)" />
+    </mask>
+
+    <g mask="url(#grid_mask)">
+      <path
+        d="M32.5 0V288M64.5 0V288M96.5 0V288M128.5 0V288M160.5 0V288M192.5 0V288M224.5 0V288M256.5 0V288M288.5 0V288M320.5 0V288M352.5 0V288M384.5 0V288M416.5 0V288M448.5 0V288M480.5 0V288M512.5 0V288M544.5 0V288M576.5 0V288M608.5 0V288M640.5 0V288M672.5 0V288M704.5 0V288M736.5 0V288M768.5 0V288M800.5 0V288M832.5 0V288M864.5 0V288M0 31.5H896M0 63.5H896M0 95.5H896M0 127.5H896M0 159.5H896M0 191.5H896M0 223.5H896M0 255.5H896"
+        stroke="black"
+        stroke-opacity="0.07"
+        stroke-dasharray="5 5"
+      />
+    </g>
+
+    <!-- Title -->
+    <g class="animate-fade-in-bottom title">
+      <text x="448" y="132" text-anchor="middle" class="font-title">
+        <tspan fill="#0F172A">I'm </tspan>
+        <tspan fill="#7C3AED">Nirmit</tspan>
+        <tspan fill="#0F172A"> Angane</tspan>
+      </text>
+    </g>
+
+    <!-- Description -->
+    <g class="animate-fade-in description">
+      <text x="448" y="168" text-anchor="middle" class="font-desc" fill="#64748B">
+        Aspiring Software Developer &#183; AI &amp; ML Enthusiast &#183; Python Developer
+      </text>
+    </g>
+
+    <!-- Additional / Badge -->
+    <g class="animate-fade-in-right additional">
+      <!-- Pill background -->
+      <rect x="358" y="196" width="180" height="28" rx="14" fill="#F1F5F9" fill-opacity="0.8" stroke="#CBD5E1" stroke-opacity="0.8" stroke-width="1" />
+      
+      <!-- Indicator Dot -->
+      <g class="additional__indicator animate-fade-in">
+        <circle cx="375" cy="210" r="4.5" fill="#7C3AED" fill-opacity="0.8" class="animate-ping" />
+        <circle cx="375" cy="210" r="3" fill="#7C3AED" />
+      </g>
+
+      <!-- Pill text -->
+      <text x="386" y="214" class="font-badge" fill="#7C3AED">
+        AVAILABLE FOR HIRE
+      </text>
+    </g>
+  </g>
+
+  <defs>
+    <linearGradient id="bg_gradient" x1="448" y1="0" x2="448" y2="288" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E2E8F0" />
+      <stop offset="1" stop-color="#E2E8F0" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="mask_gradient" x1="448" y1="0" x2="448" y2="288" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <clipPath id="clip_card">
+      <path d="M0 32C0 14.3269 14.3269 0 32 0H864C881.673 0 896 14.3269 896 32V288H0V32Z" fill="white" />
+    </clipPath>
+  </defs>
+</svg>
+
